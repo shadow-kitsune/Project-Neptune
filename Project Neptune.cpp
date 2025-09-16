@@ -6,12 +6,16 @@
 int main()
 {
     using namespace std;
-    char first, middle, last;
-    // store your initals in these variables
-    first = 'E';
-    middle = 'L';
-    last = 'B';
-    cout << first << middle << last << endl;
+    string name, address, phonenumber;
+    // store your information in these variables
+    name = "Emory Bruington";
+    address = "1305 34th st";
+    phonenumber = "757-642-6777";
+
+    cout << name << endl;
+    cout << address << endl;
+    cout << phonenumber << endl;
+
     return 0;
 }
 
