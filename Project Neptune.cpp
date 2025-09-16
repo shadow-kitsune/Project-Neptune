@@ -5,7 +5,14 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    using namespace std;
+    char first, middle, last;
+    // store your initals in these variables
+    first = 'E';
+    middle = 'L';
+    last = 'B';
+    cout << first << middle << last << endl;
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
